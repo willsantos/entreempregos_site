@@ -21,3 +21,17 @@ body{
 .container img{
   text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+  .container{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+
+  .container img{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+  }
+}
